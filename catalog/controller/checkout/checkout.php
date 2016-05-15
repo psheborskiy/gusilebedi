@@ -25,6 +25,175 @@ class ControllerCheckoutCheckout extends Controller {
 				$this->response->redirect($this->url->link('checkout/cart'));
 			}
 		}
+		//-------- Goods grid infirmation -------------------------------//
+		if ($this->cart->hasProducts() || !empty($this->session->data['vouchers'])) {
+			$data['column_image'] = $this->language->get('column_image');
+			$data['column_name'] = $this->language->get('column_name');
+			$data['column_model'] = $this->language->get('column_model');
+			$data['column_quantity'] = $this->language->get('column_quantity');
+			$data['column_price'] = $this->language->get('column_price');
+			$data['column_total'] = $this->language->get('column_total');
+
+			if (!$this->cart->hasStock() && (!$this->config->get('config_stock_checkout') || $this->config->get('config_stock_warning'))) {
+				$data['error_warning'] = $this->language->get('error_stock');
+			} elseif (isset($this->session->data['error'])) {
+				$data['error_warning'] = $this->session->data['error'];
+
+				unset($this->session->data['error']);
+			} else {
+				$data['error_warning'] = '';
+			}
+
+			if ($this->config->get('config_customer_price') && !$this->customer->isLogged()) {
+				$data['attention'] = sprintf($this->language->get('text_login'), $this->url->link('account/login'), $this->url->link('account/register'));
+			} else {
+				$data['attention'] = '';
+			}
+
+			if (isset($this->session->data['success'])) {
+				$data['success'] = $this->session->data['success'];
+
+				unset($this->session->data['success']);
+			} else {
+				$data['success'] = '';
+			}
+
+			$data['action'] = $this->url->link('checkout/cart/edit', '', true);
+
+			if ($this->config->get('config_cart_weight')) {
+				$data['weight'] = $this->weight->format($this->cart->getWeight(), $this->config->get('config_weight_class_id'), $this->language->get('decimal_point'), $this->language->get('thousand_point'));
+			} else {
+				$data['weight'] = '';
+			}
+
+			$this->load->model('tool/image');
+			$this->load->model('tool/upload');
+
+			$data['products'] = array();
+
+			$products = $this->cart->getProducts();
+
+			foreach ($products as $product) {
+				$product_total = 0;
+
+				foreach ($products as $product_2) {
+					if ($product_2['product_id'] == $product['product_id']) {
+						$product_total += $product_2['quantity'];
+					}
+				}
+
+				if ($product['minimum'] > $product_total) {
+					$data['error_warning'] = sprintf($this->language->get('error_minimum'), $product['name'], $product['minimum']);
+				}
+
+				if ($product['image']) {
+					$image = $this->model_tool_image->resize($product['image'], $this->config->get('config_image_cart_width'), $this->config->get('config_image_cart_height'));
+				} else {
+					$image = '';
+				}
+
+				$option_data = array();
+
+				foreach ($product['option'] as $option) {
+					if ($option['type'] != 'file') {
+						$value = $option['value'];
+					} else {
+						$upload_info = $this->model_tool_upload->getUploadByCode($option['value']);
+
+						if ($upload_info) {
+							$value = $upload_info['name'];
+						} else {
+							$value = '';
+						}
+					}
+
+					$option_data[] = array(
+						'name'  => $option['name'],
+						'value' => (utf8_strlen($value) > 20 ? utf8_substr($value, 0, 20) . '..' : $value)
+					);
+				}
+
+				// Display prices
+				if (($this->config->get('config_customer_price') && $this->customer->isLogged()) || !$this->config->get('config_customer_price')) {
+					$price = $this->currency->format($this->tax->calculate($product['price'], $product['tax_class_id'], $this->config->get('config_tax')));
+				} else {
+					$price = false;
+				}
+
+				// Display prices
+				if (($this->config->get('config_customer_price') && $this->customer->isLogged()) || !$this->config->get('config_customer_price')) {
+					$total = $this->currency->format($this->tax->calculate($product['price'], $product['tax_class_id'], $this->config->get('config_tax')) * $product['quantity']);
+				} else {
+					$total = false;
+				}
+
+				$recurring = '';
+
+				if ($product['recurring']) {
+					$frequencies = array(
+						'day'        => $this->language->get('text_day'),
+						'week'       => $this->language->get('text_week'),
+						'semi_month' => $this->language->get('text_semi_month'),
+						'month'      => $this->language->get('text_month'),
+						'year'       => $this->language->get('text_year'),
+					);
+
+					if ($product['recurring']['trial']) {
+						$recurring = sprintf($this->language->get('text_trial_description'), $this->currency->format($this->tax->calculate($product['recurring']['trial_price'] * $product['quantity'], $product['tax_class_id'], $this->config->get('config_tax'))), $product['recurring']['trial_cycle'], $frequencies[$product['recurring']['trial_frequency']], $product['recurring']['trial_duration']) . ' ';
+					}
+
+					if ($product['recurring']['duration']) {
+						$recurring .= sprintf($this->language->get('text_payment_description'), $this->currency->format($this->tax->calculate($product['recurring']['price'] * $product['quantity'], $product['tax_class_id'], $this->config->get('config_tax'))), $product['recurring']['cycle'], $frequencies[$product['recurring']['frequency']], $product['recurring']['duration']);
+					} else {
+						$recurring .= sprintf($this->language->get('text_payment_cancel'), $this->currency->format($this->tax->calculate($product['recurring']['price'] * $product['quantity'], $product['tax_class_id'], $this->config->get('config_tax'))), $product['recurring']['cycle'], $frequencies[$product['recurring']['frequency']], $product['recurring']['duration']);
+					}
+				}
+
+				$data['products'][] = array(
+					'cart_id'   => $product['cart_id'],
+					'thumb'     => $image,
+					'name'      => $product['name'],
+					'model'     => $product['model'],
+					'option'    => $option_data,
+					'recurring' => $recurring,
+					'quantity'  => $product['quantity'],
+					'stock'     => $product['stock'] ? true : !(!$this->config->get('config_stock_checkout') || $this->config->get('config_stock_warning')),
+					'reward'    => ($product['reward'] ? sprintf($this->language->get('text_points'), $product['reward']) : ''),
+					'price'     => $price,
+					'total'     => $total,
+					'href'      => $this->url->link('product/product', 'product_id=' . $product['product_id'])
+				);
+			}
+
+			// Gift Voucher
+			$data['vouchers'] = array();
+
+			// Totals
+			$this->load->model('extension/extension');
+
+			$total_data = array();
+			$total = 0;
+			$taxes = $this->cart->getTaxes();
+
+			$data['totals'] = array();
+
+			foreach ($total_data as $total) {
+				$data['totals'][] = array(
+					'title' => $total['title'],
+					'text'  => $this->currency->format($total['value'])
+				);
+			}
+
+			$this->load->model('extension/extension');
+			$data['checkout_buttons'] = array();
+
+			if (file_exists(DIR_TEMPLATE . $this->config->get('config_template') . '/template/checkout/cart.tpl')) {
+				$this->response->setOutput($this->load->view($this->config->get('config_template') . '/template/checkout/cart.tpl', $data));
+			} else {
+				$this->response->setOutput($this->load->view('default/template/checkout/cart.tpl', $data));
+			}
+		}
+		//-------- Goods grid infirmation -------------------------------//
 
 		$this->load->language('checkout/checkout');
 

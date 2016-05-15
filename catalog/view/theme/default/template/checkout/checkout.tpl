@@ -20,68 +20,78 @@
     <?php } ?>
     <div id="content" class="<?php echo $class; ?>"><?php echo $content_top; ?>
       <h1><?php echo $heading_title; ?></h1>
-      <div class="panel-group" id="accordion">
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title"><?php echo $text_checkout_option; ?></h4>
-          </div>
-          <div class="panel-collapse collapse" id="collapse-checkout-option">
-            <div class="panel-body"></div>
-          </div>
+
+      <div class="table-responsive">
+            <table class="table table-bordered">
+                <thead>
+                <tr>
+                    <td class="text-center"><?php echo $column_image; ?></td>
+                    <td class="text-left"><?php echo $column_name; ?></td>
+                    <td class="text-left"><?php echo $column_model; ?></td>
+                    <td class="text-left"><?php echo $column_quantity; ?></td>
+                    <td class="text-right"><?php echo $column_price; ?></td>
+                    <td class="text-right"><?php echo $column_total; ?></td>
+                </tr>
+                </thead>
+                <tbody>
+                <?php foreach ($products as $product) { ?>
+                <tr>
+                    <td class="text-center"><?php if ($product['thumb']) { ?>
+                        <a href="<?php echo $product['href']; ?>"><img src="<?php echo $product['thumb']; ?>" alt="<?php echo $product['name']; ?>" title="<?php echo $product['name']; ?>" class="img-thumbnail" /></a>
+                        <?php } ?></td>
+                    <td class="text-left"><a href="<?php echo $product['href']; ?>"><?php echo $product['name']; ?></a>
+                        <?php if (!$product['stock']) { ?>
+                        <span class="text-danger">***</span>
+                        <?php } ?>
+                        <?php if ($product['option']) { ?>
+                        <?php foreach ($product['option'] as $option) { ?>
+                        <br />
+                        <small><?php echo $option['name']; ?>: <?php echo $option['value']; ?></small>
+                        <?php } ?>
+                        <?php } ?>
+                        <?php if ($product['reward']) { ?>
+                        <br />
+                        <small><?php echo $product['reward']; ?></small>
+                        <?php } ?>
+                        <?php if ($product['recurring']) { ?>
+                        <br />
+                        <span class="label label-info"><?php echo $text_recurring_item; ?></span> <small><?php echo $product['recurring']; ?></small>
+                        <?php } ?></td>
+                    <td class="text-left"><?php echo $product['model']; ?></td>
+                    <td class="text-left"><div class="input-group btn-block" style="max-width: 200px;">
+                            <input type="text" name="quantity[<?php echo $product['cart_id']; ?>]" value="<?php echo $product['quantity']; ?>" size="1" class="form-control" />
+                    <span class="input-group-btn">
+                    <button type="submit" data-toggle="tooltip" title="<?php echo $button_update; ?>" class="btn btn-primary"><i class="fa fa-refresh"></i></button>
+                    <button type="button" data-toggle="tooltip" title="<?php echo $button_remove; ?>" class="btn btn-danger" onclick="cart.remove('<?php echo $product['cart_id']; ?>');"><i class="fa fa-times-circle"></i></button></span></div></td>
+                    <td class="text-right"><?php echo $product['price']; ?></td>
+                    <td class="text-right"><?php echo $product['total']; ?></td>
+                </tr>
+                <?php } ?>
+                <?php foreach ($vouchers as $vouchers) { ?>
+                <tr>
+                    <td></td>
+                    <td class="text-left"><?php echo $vouchers['description']; ?></td>
+                    <td class="text-left"></td>
+                    <td class="text-left"><div class="input-group btn-block" style="max-width: 200px;">
+                            <input type="text" name="" value="1" size="1" disabled="disabled" class="form-control" />
+                            <span class="input-group-btn"><button type="button" data-toggle="tooltip" title="<?php echo $button_remove; ?>" class="btn btn-danger" onclick="voucher.remove('<?php echo $vouchers['key']; ?>');"><i class="fa fa-times-circle"></i></button></span></div></td>
+                    <td class="text-right"><?php echo $vouchers['amount']; ?></td>
+                    <td class="text-right"><?php echo $vouchers['amount']; ?></td>
+                </tr>
+                <?php } ?>
+                </tbody>
+            </table>
         </div>
-        <?php if (!$logged && $account != 'guest') { ?>
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title"><?php echo $text_checkout_account; ?></h4>
-          </div>
-          <div class="panel-collapse collapse" id="collapse-payment-address">
-            <div class="panel-body"></div>
-          </div>
-        </div>
-        <?php } else { ?>
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title"><?php echo $text_checkout_payment_address; ?></h4>
-          </div>
-          <div class="panel-collapse collapse" id="collapse-payment-address">
-            <div class="panel-body"></div>
-          </div>
-        </div>
-        <?php } ?>
-        <?php if ($shipping_required) { ?>
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title"><?php echo $text_checkout_shipping_address; ?></h4>
-          </div>
-          <div class="panel-collapse collapse" id="collapse-shipping-address">
-            <div class="panel-body"></div>
-          </div>
-        </div>
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title"><?php echo $text_checkout_shipping_method; ?></h4>
-          </div>
-          <div class="panel-collapse collapse" id="collapse-shipping-method">
-            <div class="panel-body"></div>
-          </div>
-        </div>
-        <?php } ?>
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title"><?php echo $text_checkout_payment_method; ?></h4>
-          </div>
-          <div class="panel-collapse collapse" id="collapse-payment-method">
-            <div class="panel-body"></div>
-          </div>
-        </div>
-        <div class="panel panel-default">
-          <div class="panel-heading">
-            <h4 class="panel-title"><?php echo $text_checkout_confirm; ?></h4>
-          </div>
-          <div class="panel-collapse collapse" id="collapse-checkout-confirm">
-            <div class="panel-body"></div>
-          </div>
-        </div>
+
+      <div style="max-width: 700px; padding-top: 20px;">
+          <label for="name">Ваше Имя</label>
+          <input type="text" class="form-control" id="name">
+          <label for="phone">Ваш номер телефона</label>
+          <input type="number" class="form-control" id="phone">
+          <label for="email">Ваш електронний адрес</label>
+          <input type="email" class="form-control" id="email">
+          <br/>
+          <button type="button" class="btn btn-success btn-lg" style="background-image: linear-gradient(to bottom, #19A064, #018047)">Замовити!</button>
       </div>
       <?php echo $content_bottom; ?></div>
     <?php echo $column_right; ?></div>

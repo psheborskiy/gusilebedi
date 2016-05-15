@@ -1,2 +1,277 @@
 2016-01-25 22:52:45 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in Y:\home\gusilebedi.ua\www\system\library\image.php on line 118
 2016-01-25 22:52:45 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in Y:\home\gusilebedi.ua\www\system\library\image.php on line 119
+2016-05-15 21:33:28 - PHP Notice:  Undefined variable: column_image in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 29
+2016-05-15 21:33:28 - PHP Notice:  Undefined variable: column_name in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 30
+2016-05-15 21:33:28 - PHP Notice:  Undefined variable: column_model in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 31
+2016-05-15 21:33:28 - PHP Notice:  Undefined variable: column_quantity in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 32
+2016-05-15 21:33:28 - PHP Notice:  Undefined variable: column_price in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 33
+2016-05-15 21:33:28 - PHP Notice:  Undefined variable: column_total in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 34
+2016-05-15 21:33:28 - PHP Notice:  Undefined variable: products in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 38
+2016-05-15 21:33:28 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 38
+2016-05-15 21:33:28 - PHP Notice:  Undefined variable: vouchers in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 71
+2016-05-15 21:33:28 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 71
+2016-05-15 21:35:23 - PHP Notice:  Undefined variable: breadcrumbs in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:35:23 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:36:19 - PHP Notice:  Undefined variable: breadcrumbs in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:36:19 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:37:26 - PHP Notice:  Undefined variable: breadcrumbs in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:37:26 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:40:54 - PHP Notice:  Undefined variable: breadcrumbs in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:40:54 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:41:28 - PHP Notice:  Undefined variable: breadcrumbs in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:41:28 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:41:28 - PHP Notice:  Undefined variable: heading_title in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 32
+2016-05-15 21:41:28 - PHP Notice:  Undefined variable: column_image in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 42
+2016-05-15 21:41:28 - PHP Notice:  Undefined variable: column_name in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 43
+2016-05-15 21:41:28 - PHP Notice:  Undefined variable: column_model in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 44
+2016-05-15 21:41:28 - PHP Notice:  Undefined variable: column_quantity in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 45
+2016-05-15 21:41:28 - PHP Notice:  Undefined variable: column_price in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 46
+2016-05-15 21:41:28 - PHP Notice:  Undefined variable: column_total in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 47
+2016-05-15 21:41:28 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 78
+2016-05-15 21:41:28 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 79
+2016-05-15 21:41:28 - PHP Notice:  Undefined variable: button_shopping in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 120
+2016-05-15 21:41:28 - PHP Notice:  Undefined variable: button_checkout in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 121
+2016-05-15 21:41:28 - PHP Notice:  Undefined variable: column_image in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 29
+2016-05-15 21:41:28 - PHP Notice:  Undefined variable: column_name in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 30
+2016-05-15 21:41:28 - PHP Notice:  Undefined variable: column_model in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 31
+2016-05-15 21:41:28 - PHP Notice:  Undefined variable: column_quantity in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 32
+2016-05-15 21:41:28 - PHP Notice:  Undefined variable: column_price in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 33
+2016-05-15 21:41:28 - PHP Notice:  Undefined variable: column_total in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 34
+2016-05-15 21:41:28 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 65
+2016-05-15 21:41:28 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 66
+2016-05-15 21:41:37 - PHP Notice:  Undefined variable: breadcrumbs in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:41:37 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:41:45 - PHP Notice:  Undefined variable: breadcrumbs in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:41:45 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:41:45 - PHP Notice:  Undefined variable: heading_title in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 32
+2016-05-15 21:41:54 - PHP Notice:  Undefined variable: breadcrumbs in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:41:54 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:41:54 - PHP Notice:  Undefined variable: heading_title in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 32
+2016-05-15 21:42:01 - PHP Notice:  Undefined variable: breadcrumbs in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:42:01 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:42:01 - PHP Notice:  Undefined variable: heading_title in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 32
+2016-05-15 21:42:08 - PHP Notice:  Undefined variable: breadcrumbs in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:42:08 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:42:08 - PHP Notice:  Undefined variable: heading_title in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 32
+2016-05-15 21:42:14 - PHP Notice:  Undefined variable: breadcrumbs in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:42:14 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:42:14 - PHP Notice:  Undefined variable: heading_title in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 32
+2016-05-15 21:42:14 - PHP Notice:  Undefined variable: column_image in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 42
+2016-05-15 21:42:14 - PHP Notice:  Undefined variable: column_image in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 29
+2016-05-15 21:42:21 - PHP Notice:  Undefined variable: breadcrumbs in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:42:21 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:42:21 - PHP Notice:  Undefined variable: heading_title in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 32
+2016-05-15 21:42:31 - PHP Notice:  Undefined variable: breadcrumbs in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:42:31 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:42:31 - PHP Notice:  Undefined variable: heading_title in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 32
+2016-05-15 21:42:31 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 78
+2016-05-15 21:42:31 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 79
+2016-05-15 21:42:31 - PHP Notice:  Undefined variable: button_shopping in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 120
+2016-05-15 21:42:31 - PHP Notice:  Undefined variable: button_checkout in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 121
+2016-05-15 21:42:32 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 65
+2016-05-15 21:42:32 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 66
+2016-05-15 21:43:23 - PHP Notice:  Undefined variable: price in Y:\home\gusilebedi.ua\www\catalog\controller\checkout\checkout.php on line 173
+2016-05-15 21:43:23 - PHP Notice:  Undefined variable: total in Y:\home\gusilebedi.ua\www\catalog\controller\checkout\checkout.php on line 174
+2016-05-15 21:43:24 - PHP Notice:  Undefined variable: breadcrumbs in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:43:24 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:43:24 - PHP Notice:  Undefined variable: heading_title in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 32
+2016-05-15 21:43:24 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 78
+2016-05-15 21:43:24 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 79
+2016-05-15 21:43:24 - PHP Notice:  Undefined variable: button_shopping in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 120
+2016-05-15 21:43:24 - PHP Notice:  Undefined variable: button_checkout in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 121
+2016-05-15 21:43:24 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 65
+2016-05-15 21:43:24 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 66
+2016-05-15 21:43:31 - PHP Notice:  Undefined variable: breadcrumbs in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:43:31 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:43:31 - PHP Notice:  Undefined variable: heading_title in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 32
+2016-05-15 21:43:31 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 78
+2016-05-15 21:43:31 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 79
+2016-05-15 21:43:31 - PHP Notice:  Undefined variable: button_shopping in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 120
+2016-05-15 21:43:31 - PHP Notice:  Undefined variable: button_checkout in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 121
+2016-05-15 21:43:31 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 65
+2016-05-15 21:43:31 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 66
+2016-05-15 21:44:02 - PHP Notice:  Undefined variable: recurring in Y:\home\gusilebedi.ua\www\catalog\controller\checkout\checkout.php on line 169
+2016-05-15 21:44:02 - PHP Notice:  Undefined variable: breadcrumbs in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:44:02 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:44:02 - PHP Notice:  Undefined variable: heading_title in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 32
+2016-05-15 21:44:02 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 78
+2016-05-15 21:44:02 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 79
+2016-05-15 21:44:02 - PHP Notice:  Undefined variable: button_shopping in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 120
+2016-05-15 21:44:02 - PHP Notice:  Undefined variable: button_checkout in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 121
+2016-05-15 21:44:03 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 65
+2016-05-15 21:44:03 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 66
+2016-05-15 21:44:21 - PHP Notice:  Undefined variable: breadcrumbs in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:44:21 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:44:21 - PHP Notice:  Undefined variable: heading_title in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 32
+2016-05-15 21:44:21 - PHP Notice:  Undefined index: recurring in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 70
+2016-05-15 21:44:21 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 78
+2016-05-15 21:44:21 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 79
+2016-05-15 21:44:21 - PHP Notice:  Undefined variable: button_shopping in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 120
+2016-05-15 21:44:21 - PHP Notice:  Undefined variable: button_checkout in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 121
+2016-05-15 21:44:21 - PHP Notice:  Undefined index: recurring in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 57
+2016-05-15 21:44:21 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 65
+2016-05-15 21:44:21 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 66
+2016-05-15 21:44:29 - PHP Notice:  Undefined variable: breadcrumbs in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:44:29 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:44:29 - PHP Notice:  Undefined variable: heading_title in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 32
+2016-05-15 21:44:29 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 78
+2016-05-15 21:44:29 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 79
+2016-05-15 21:44:29 - PHP Notice:  Undefined variable: button_shopping in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 120
+2016-05-15 21:44:29 - PHP Notice:  Undefined variable: button_checkout in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 121
+2016-05-15 21:44:29 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 65
+2016-05-15 21:44:29 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 66
+2016-05-15 21:45:29 - PHP Notice:  Undefined variable: breadcrumbs in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:45:29 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:45:29 - PHP Notice:  Undefined variable: heading_title in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 32
+2016-05-15 21:45:29 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 78
+2016-05-15 21:45:29 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 79
+2016-05-15 21:45:29 - PHP Notice:  Undefined variable: vouchers in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 84
+2016-05-15 21:45:29 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 84
+2016-05-15 21:45:29 - PHP Notice:  Undefined variable: button_shopping in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 120
+2016-05-15 21:45:29 - PHP Notice:  Undefined variable: button_checkout in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 121
+2016-05-15 21:45:30 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 65
+2016-05-15 21:45:30 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 66
+2016-05-15 21:45:30 - PHP Notice:  Undefined variable: vouchers in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 71
+2016-05-15 21:45:30 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 71
+2016-05-15 21:45:35 - PHP Notice:  Undefined variable: breadcrumbs in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:45:35 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:45:35 - PHP Notice:  Undefined variable: heading_title in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 32
+2016-05-15 21:45:35 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 78
+2016-05-15 21:45:35 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 79
+2016-05-15 21:45:35 - PHP Notice:  Undefined variable: button_shopping in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 120
+2016-05-15 21:45:35 - PHP Notice:  Undefined variable: button_checkout in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 121
+2016-05-15 21:45:35 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 65
+2016-05-15 21:45:35 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 66
+2016-05-15 21:45:45 - PHP Notice:  Undefined variable: breadcrumbs in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:45:45 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:45:45 - PHP Notice:  Undefined variable: heading_title in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 32
+2016-05-15 21:45:45 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 78
+2016-05-15 21:45:45 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 79
+2016-05-15 21:45:45 - PHP Notice:  Undefined variable: button_shopping in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 120
+2016-05-15 21:45:45 - PHP Notice:  Undefined variable: button_checkout in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 121
+2016-05-15 21:45:45 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 65
+2016-05-15 21:45:45 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 66
+2016-05-15 21:46:25 - PHP Notice:  Undefined variable: breadcrumbs in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:46:25 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:46:25 - PHP Notice:  Undefined variable: heading_title in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 32
+2016-05-15 21:46:25 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 78
+2016-05-15 21:46:25 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 79
+2016-05-15 21:46:25 - PHP Notice:  Undefined variable: button_shopping in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 120
+2016-05-15 21:46:25 - PHP Notice:  Undefined variable: button_checkout in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 121
+2016-05-15 21:46:25 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 65
+2016-05-15 21:46:25 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 66
+2016-05-15 21:46:29 - PHP Notice:  Undefined variable: breadcrumbs in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:46:29 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:46:29 - PHP Notice:  Undefined variable: heading_title in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 32
+2016-05-15 21:46:29 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 78
+2016-05-15 21:46:29 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 79
+2016-05-15 21:46:29 - PHP Notice:  Undefined variable: button_shopping in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 120
+2016-05-15 21:46:29 - PHP Notice:  Undefined variable: button_checkout in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 121
+2016-05-15 21:46:29 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 65
+2016-05-15 21:46:29 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 66
+2016-05-15 21:46:59 - PHP Notice:  Undefined variable: breadcrumbs in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:46:59 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:46:59 - PHP Notice:  Undefined variable: heading_title in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 32
+2016-05-15 21:46:59 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 78
+2016-05-15 21:46:59 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 79
+2016-05-15 21:46:59 - PHP Notice:  Undefined variable: continue in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 120
+2016-05-15 21:46:59 - PHP Notice:  Undefined variable: button_shopping in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 120
+2016-05-15 21:46:59 - PHP Notice:  Undefined variable: checkout in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 121
+2016-05-15 21:46:59 - PHP Notice:  Undefined variable: button_checkout in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 121
+2016-05-15 21:46:59 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 65
+2016-05-15 21:46:59 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 66
+2016-05-15 21:47:02 - PHP Notice:  Undefined variable: breadcrumbs in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:47:02 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:47:02 - PHP Notice:  Undefined variable: heading_title in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 32
+2016-05-15 21:47:02 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 78
+2016-05-15 21:47:02 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 79
+2016-05-15 21:47:02 - PHP Notice:  Undefined variable: continue in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 120
+2016-05-15 21:47:02 - PHP Notice:  Undefined variable: button_shopping in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 120
+2016-05-15 21:47:02 - PHP Notice:  Undefined variable: checkout in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 121
+2016-05-15 21:47:02 - PHP Notice:  Undefined variable: button_checkout in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 121
+2016-05-15 21:47:02 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 65
+2016-05-15 21:47:02 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 66
+2016-05-15 21:47:24 - PHP Notice:  Undefined variable: breadcrumbs in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:47:24 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:47:24 - PHP Notice:  Undefined variable: heading_title in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 32
+2016-05-15 21:47:24 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 78
+2016-05-15 21:47:24 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 79
+2016-05-15 21:47:24 - PHP Notice:  Undefined variable: continue in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 120
+2016-05-15 21:47:24 - PHP Notice:  Undefined variable: button_shopping in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 120
+2016-05-15 21:47:24 - PHP Notice:  Undefined variable: checkout in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 121
+2016-05-15 21:47:24 - PHP Notice:  Undefined variable: button_checkout in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 121
+2016-05-15 21:47:24 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 65
+2016-05-15 21:47:24 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 66
+2016-05-15 21:47:27 - PHP Notice:  Undefined variable: breadcrumbs in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:47:27 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:47:27 - PHP Notice:  Undefined variable: heading_title in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 32
+2016-05-15 21:47:27 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 78
+2016-05-15 21:47:27 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 79
+2016-05-15 21:47:27 - PHP Notice:  Undefined variable: continue in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 120
+2016-05-15 21:47:27 - PHP Notice:  Undefined variable: button_shopping in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 120
+2016-05-15 21:47:27 - PHP Notice:  Undefined variable: checkout in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 121
+2016-05-15 21:47:27 - PHP Notice:  Undefined variable: button_checkout in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 121
+2016-05-15 21:47:27 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 65
+2016-05-15 21:47:27 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 66
+2016-05-15 21:48:13 - PHP Notice:  Undefined variable: breadcrumbs in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:48:13 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:48:13 - PHP Notice:  Undefined variable: heading_title in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 32
+2016-05-15 21:48:13 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 78
+2016-05-15 21:48:13 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 79
+2016-05-15 21:48:13 - PHP Notice:  Undefined variable: continue in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 120
+2016-05-15 21:48:13 - PHP Notice:  Undefined variable: button_shopping in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 120
+2016-05-15 21:48:13 - PHP Notice:  Undefined variable: checkout in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 121
+2016-05-15 21:48:13 - PHP Notice:  Undefined variable: button_checkout in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 121
+2016-05-15 21:48:14 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 65
+2016-05-15 21:48:14 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 66
+2016-05-15 21:48:36 - PHP Notice:  Undefined variable: breadcrumbs in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:48:36 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:48:36 - PHP Notice:  Undefined variable: heading_title in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 32
+2016-05-15 21:48:36 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 78
+2016-05-15 21:48:36 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 79
+2016-05-15 21:48:36 - PHP Notice:  Undefined variable: continue in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 120
+2016-05-15 21:48:36 - PHP Notice:  Undefined variable: button_shopping in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 120
+2016-05-15 21:48:36 - PHP Notice:  Undefined variable: checkout in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 121
+2016-05-15 21:48:36 - PHP Notice:  Undefined variable: button_checkout in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 121
+2016-05-15 21:48:36 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 65
+2016-05-15 21:48:36 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 66
+2016-05-15 21:49:03 - PHP Notice:  Undefined variable: header in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 1
+2016-05-15 21:49:03 - PHP Notice:  Undefined variable: breadcrumbs in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:49:03 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:49:03 - PHP Notice:  Undefined variable: column_left in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 23
+2016-05-15 21:49:03 - PHP Notice:  Undefined variable: column_left in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 24
+2016-05-15 21:49:03 - PHP Notice:  Undefined variable: column_left in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 26
+2016-05-15 21:49:03 - PHP Notice:  Undefined variable: column_right in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 26
+2016-05-15 21:49:03 - PHP Notice:  Undefined variable: content_top in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 31
+2016-05-15 21:49:03 - PHP Notice:  Undefined variable: heading_title in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 32
+2016-05-15 21:49:03 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 78
+2016-05-15 21:49:03 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 79
+2016-05-15 21:49:03 - PHP Notice:  Undefined variable: continue in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 120
+2016-05-15 21:49:03 - PHP Notice:  Undefined variable: button_shopping in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 120
+2016-05-15 21:49:03 - PHP Notice:  Undefined variable: checkout in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 121
+2016-05-15 21:49:03 - PHP Notice:  Undefined variable: button_checkout in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 121
+2016-05-15 21:49:03 - PHP Notice:  Undefined variable: content_bottom in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 123
+2016-05-15 21:49:03 - PHP Notice:  Undefined variable: column_right in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 124
+2016-05-15 21:49:03 - PHP Notice:  Undefined variable: footer in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 126
+2016-05-15 21:49:04 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 65
+2016-05-15 21:49:04 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 66
+2016-05-15 21:49:07 - PHP Notice:  Undefined variable: header in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 1
+2016-05-15 21:49:07 - PHP Notice:  Undefined variable: breadcrumbs in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:49:07 - PHP Warning:  Invalid argument supplied for foreach() in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 4
+2016-05-15 21:49:07 - PHP Notice:  Undefined variable: column_left in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 23
+2016-05-15 21:49:07 - PHP Notice:  Undefined variable: column_left in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 24
+2016-05-15 21:49:07 - PHP Notice:  Undefined variable: column_left in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 26
+2016-05-15 21:49:07 - PHP Notice:  Undefined variable: column_right in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 26
+2016-05-15 21:49:07 - PHP Notice:  Undefined variable: content_top in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 31
+2016-05-15 21:49:07 - PHP Notice:  Undefined variable: heading_title in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 32
+2016-05-15 21:49:07 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 78
+2016-05-15 21:49:07 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 79
+2016-05-15 21:49:07 - PHP Notice:  Undefined variable: continue in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 120
+2016-05-15 21:49:07 - PHP Notice:  Undefined variable: button_shopping in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 120
+2016-05-15 21:49:07 - PHP Notice:  Undefined variable: checkout in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 121
+2016-05-15 21:49:07 - PHP Notice:  Undefined variable: button_checkout in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 121
+2016-05-15 21:49:07 - PHP Notice:  Undefined variable: content_bottom in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 123
+2016-05-15 21:49:07 - PHP Notice:  Undefined variable: column_right in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 124
+2016-05-15 21:49:07 - PHP Notice:  Undefined variable: footer in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\cart.tpl on line 126
+2016-05-15 21:49:08 - PHP Notice:  Undefined variable: button_update in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 65
+2016-05-15 21:49:08 - PHP Notice:  Undefined variable: button_remove in Y:\home\gusilebedi.ua\www\catalog\view\theme\default\template\checkout\checkout.tpl on line 66
