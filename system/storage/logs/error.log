@@ -1,0 +1,2 @@
+2016-01-25 22:52:45 - PHP Warning:  imagecopyresampled() expects parameter 2 to be resource, null given in Y:\home\gusilebedi.ua\www\system\library\image.php on line 118
+2016-01-25 22:52:45 - PHP Warning:  imagedestroy() expects parameter 1 to be resource, null given in Y:\home\gusilebedi.ua\www\system\library\image.php on line 119
