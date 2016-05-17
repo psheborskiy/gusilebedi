@@ -84,7 +84,7 @@ class Controllercheckoutsubmit extends Controller {
 		$order_data['payment_address_format'] = "";
 		$order_data['payment_custom_field'] =  array();
 		$order_data['payment_method'] = 'Готівка';
-		$order_data['payment_code'] = '';
+		$order_data['payment_code'] = 'cod';//Important
 		$order_data['comment'] = "Коментарий";
 		$order_data['total'] = $total;
 		$order_data['affiliate_id'] = 0;
