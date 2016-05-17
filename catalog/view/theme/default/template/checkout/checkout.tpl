@@ -1,5 +1,5 @@
 <?php echo $header; ?>
-<div class="container">
+<div class="container" xmlns="http://www.w3.org/1999/html">
   <ul class="breadcrumb">
     <?php foreach ($breadcrumbs as $breadcrumb) { ?>
     <li><a href="<?php echo $breadcrumb['href']; ?>"><?php echo $breadcrumb['text']; ?></a></li>
@@ -25,12 +25,12 @@
             <table class="table table-bordered">
                 <thead>
                 <tr>
-                    <td class="text-center"><?php echo $column_image; ?></td>
-                    <td class="text-left"><?php echo $column_name; ?></td>
-                    <td class="text-left"><?php echo $column_model; ?></td>
-                    <td class="text-left"><?php echo $column_quantity; ?></td>
-                    <td class="text-right"><?php echo $column_price; ?></td>
-                    <td class="text-right"><?php echo $column_total; ?></td>
+                    <td class="text-center">Това</td>
+                    <td class="text-left">Назва></td>
+                    <td class="text-left">Модель</td>
+                    <td class="text-left">Кількість</td>
+                    <td class="text-right">Ціна</td>
+                    <td class="text-right">Разом</td>
                 </tr>
                 </thead>
                 <tbody>
@@ -59,10 +59,8 @@
                         <?php } ?></td>
                     <td class="text-left"><?php echo $product['model']; ?></td>
                     <td class="text-left"><div class="input-group btn-block" style="max-width: 200px;">
-                            <input type="text" name="quantity[<?php echo $product['cart_id']; ?>]" value="<?php echo $product['quantity']; ?>" size="1" class="form-control" />
+                    <span name="quantity[<?php echo $product['cart_id']; ?>]" /><?php echo $product['quantity']; ?></span>
                     <span class="input-group-btn">
-                    <button type="submit" data-toggle="tooltip" title="<?php echo $button_update; ?>" class="btn btn-primary"><i class="fa fa-refresh"></i></button>
-                    <button type="button" data-toggle="tooltip" title="<?php echo $button_remove; ?>" class="btn btn-danger" onclick="cart.remove('<?php echo $product['cart_id']; ?>');"><i class="fa fa-times-circle"></i></button></span></div></td>
                     <td class="text-right"><?php echo $product['price']; ?></td>
                     <td class="text-right"><?php echo $product['total']; ?></td>
                 </tr>
@@ -73,8 +71,8 @@
                     <td class="text-left"><?php echo $vouchers['description']; ?></td>
                     <td class="text-left"></td>
                     <td class="text-left"><div class="input-group btn-block" style="max-width: 200px;">
-                            <input type="text" name="" value="1" size="1" disabled="disabled" class="form-control" />
-                            <span class="input-group-btn"><button type="button" data-toggle="tooltip" title="<?php echo $button_remove; ?>" class="btn btn-danger" onclick="voucher.remove('<?php echo $vouchers['key']; ?>');"><i class="fa fa-times-circle"></i></button></span></div></td>
+                    <input type="text" name="" value="1" size="1" disabled="disabled" class="form-control" />
+                    <span class="input-group-btn"><button type="button" data-toggle="tooltip" title="<?php echo $button_remove; ?>" class="btn btn-danger" onclick="voucher.remove('<?php echo $vouchers['key']; ?>');"><i class="fa fa-times-circle"></i></button></span></div></td>
                     <td class="text-right"><?php echo $vouchers['amount']; ?></td>
                     <td class="text-right"><?php echo $vouchers['amount']; ?></td>
                 </tr>
@@ -84,11 +82,11 @@
         </div>
 
       <div style="max-width: 700px; padding-top: 20px;">
-          <label for="name">Ваше Имя</label>
+          <label for="name">Ваше Ім'я</label>
           <input type="text" class="form-control" id="name">
-          <label for="phone">Ваш номер телефона</label>
+          <label for="phone">Ваш номер телефону</label>
           <input type="number" class="form-control" id="phone">
-          <label for="email">Ваш електронний адрес</label>
+          <label for="email">Ваша електронна адреса</label>
           <input type="email" class="form-control" id="email">
           <br/>
           <button type="button" class="btn btn-success btn-lg" style="background-image: linear-gradient(to bottom, #19A064, #018047)">Замовити!</button>
