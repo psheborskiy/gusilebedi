@@ -3,6 +3,13 @@ class Controllercheckoutsubmit extends Controller {
 	public function index() {
 
 		/*************** ЦЕНА  ***************************/
+		$input_name = (htmlspecialchars($_GET["name"]));
+		$input_phone = (htmlspecialchars($_GET["phone"]));
+		$input_email = (htmlspecialchars($_GET["email"]));
+
+		if(!$_GET["phone"])
+			die("Bad teltphone");
+
 		$order_data['totals'] = array();
 		$total = 0;
 		$taxes = $this->cart->getTaxes();
@@ -41,46 +48,46 @@ class Controllercheckoutsubmit extends Controller {
 		$order_data['invoice_prefix'] = $this->config->get('config_invoice_prefix');
 		$order_data['store_id'] = $this->config->get('config_store_id');
 		$order_data['store_name'] = $this->config->get('config_name');
-		$order_data['shipping_firstname'] = '1';
-		$order_data['shipping_lastname'] = '2';
+		$order_data['shipping_firstname'] = '0';
+		$order_data['shipping_lastname'] = '0';
 		$order_data['shipping_company'] = '';
 		$order_data['store_url'] = HTTP_SERVER;
 		$order_data['customer_group_id'] =1;
-		$order_data['firstname'] ="Юрій";
-		$order_data['lastname'] = "Psheborsky";
-		$order_data['email'] = "vinity.com@mail.ru";
-		$order_data['telephone'] = "0987655665";
+		$order_data['firstname'] = $input_name;
+		$order_data['lastname'] =  $input_name;
+		$order_data['email'] = $input_email;
+		$order_data['telephone'] = $input_phone;
 		$order_data['fax'] = "0";
 		$order_data['custom_field'] = "Замовлення";
 		$order_data['customer_id'] = 0;
-		$order_data['shipping_address_1'] = '4';
-		$order_data['shipping_address_2'] = '5';
-		$order_data['shipping_city'] = '6';
-		$order_data['shipping_postcode'] = '7';
-		$order_data['shipping_zone'] = '8';
+		$order_data['shipping_address_1'] = '0';
+		$order_data['shipping_address_2'] = '0';
+		$order_data['shipping_city'] = '0';
+		$order_data['shipping_postcode'] = '0';
+		$order_data['shipping_zone'] = '0';
 		$order_data['shipping_zone_id'] = '9';
-		$order_data['shipping_country'] = '11';
-		$order_data['shipping_country_id'] = '12';
-		$order_data['shipping_address_format'] = '13';
+		$order_data['shipping_country'] = '0';
+		$order_data['shipping_country_id'] = '0';
+		$order_data['shipping_address_format'] = '0';
 		$order_data['shipping_custom_field'] = array();
-		$order_data['shipping_method'] = '14';
-		$order_data['shipping_code'] = '15';
+		$order_data['shipping_method'] = '0';
+		$order_data['shipping_code'] = '0';
 
 		$order_data['products'] = array();
 		$order_data['vouchers'] = array();
 
 
-		$order_data['payment_firstname'] = "Пеймент Вася";
-		$order_data['payment_lastname'] = "Пеймент фамилия";
+		$order_data['payment_firstname'] = $input_name;
+		$order_data['payment_lastname'] = $input_name;
 		$order_data['payment_company'] = "1";
 		$order_data['payment_address_1'] = "Адрес";
-		$order_data['payment_address_2'] = "2";
+		$order_data['payment_address_2'] = "0";
 		$order_data['payment_city'] = "Город";
 		$order_data['payment_postcode'] = "Код";
 		$order_data['payment_zone'] = "Область";
-		$order_data['payment_zone_id'] = "1";
+		$order_data['payment_zone_id'] = "0";
 		$order_data['payment_country'] = "Украина";
-		$order_data['payment_country_id'] = "1";
+		$order_data['payment_country_id'] = "0";
 		$order_data['payment_address_format'] = "";
 		$order_data['payment_custom_field'] =  array();
 		$order_data['payment_method'] = 'Готівка';
@@ -181,6 +188,28 @@ class Controllercheckoutsubmit extends Controller {
 			unset($this->session->data['vouchers']);
 			unset($this->session->data['totals']);
 
+
+			$data['button_continue'] = $this->language->get('button_continue');
+			$data['continue'] = $this->url->link('common/home');
+			$data['column_left'] = $this->load->controller('common/column_left');
+			$data['column_right'] = $this->load->controller('common/column_right');
+			$data['content_top'] = $this->load->controller('common/content_top');
+			$data['content_bottom'] = $this->load->controller('common/content_bottom');
+			$data['footer'] = $this->load->controller('common/footer');
+			$data['header'] = $this->load->controller('common/header');
+			$data['breadcrumbs'] = array();
+
+			$data['breadcrumbs'][] = array(
+				'text' => $this->language->get('text_home'),
+				'href' => $this->url->link('common/home')
+			);
+
+			$data['breadcrumbs'][] = array(
+				'text' => $this->language->get('text_checkout'),
+				'href' => $this->url->link('checkout/checkout', '', 'SSL')
+			);
+
+			$this->response->setOutput($this->load->view('default/template/common/success.tpl', $data));
 		}
 
 	}

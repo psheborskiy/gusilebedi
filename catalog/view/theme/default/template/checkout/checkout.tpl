@@ -80,17 +80,19 @@
                 </tbody>
             </table>
         </div>
-
-      <div style="max-width: 700px; padding-top: 20px;">
-          <label for="name">Ваше Ім'я</label>
-          <input type="text" class="form-control" id="name">
-          <label for="phone">Ваш номер телефону</label>
-          <input type="number" class="form-control" id="phone">
-          <label for="email">Ваша електронна адреса</label>
-          <input type="email" class="form-control" id="email">
-          <br/>
-          <button type="button" class="btn btn-success btn-lg" style="background-image: linear-gradient(to bottom, #19A064, #018047)">Замовити!</button>
-      </div>
+      <form action="/index.php" method="get">
+          <div style="max-width: 700px; padding-top: 20px;">
+              <label for="name">Ваше Ім'я</label>
+              <input type="text" class="form-control" id="name" name="name">
+              <label for="phone">Ваш номер телефону</label>
+              <input type="number" class="form-control" id="phone" name="phone">
+              <label for="email">Ваша електронна адреса</label>
+              <input type="email" class="form-control" id="email" name="email">
+              <input type="hidden" name="route"  value="checkout/submit">
+              <br/>
+              <button type="submit" class="btn btn-success btn-lg" style="background-image: linear-gradient(to bottom, #19A064, #018047)">Замовити!</button>
+          </div>
+      </form>
       <?php echo $content_bottom; ?></div>
     <?php echo $column_right; ?></div>
 </div>

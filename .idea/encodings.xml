@@ -3,5 +3,6 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/catalog/controller/checkout/submit.php" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/catalog/view/theme/default/template/checkout/checkout.tpl" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/catalog/view/theme/default/template/common/success.tpl" charset="UTF-8" />
   </component>
 </project>
